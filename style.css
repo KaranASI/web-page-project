@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(253, 255, 98);
+  padding: 20px 100px;
+  border-bottom: 6px solid black;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+
+.smg-logo,
+.topbar-logo,
+.help-center {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  color: black;
+}
+
+.smg-logo {
+  font-weight: bold;
+  padding-right: 10px;
+  word-spacing: -3px;
+}
+
+.help-center {
+  padding-left: 10px;
+  border-left: 2px solid black;
+}
+
+.help-center:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  color: black;
+  padding: 13px 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.signin-btn {
+  color: white;
+  background-color: rgb(60, 69, 203);
+  padding: 13px 25px;
+  border-radius: 10px;
+  margin-left: 10px;
+  word-spacing: 2px;
+}
+
+.signin-btn:hover {
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin-left: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 80px;
+  width: auto;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px;
+  font-size: 80px;
+  font-family: sans-serif;
+  background-color: rgb(248, 230, 206);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  height: 65px;
+  width: 40%;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.sm-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.sm-item {
+  display: flex;
+  flex: 50%;
+  padding: 70px 120px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.sm-text {
+  width: 450px;
+}
+
+.sm-name {
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+.sm-desciption {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.sm-list a {
+  padding-left: 20px;
+}
+
+.sm-list a:hover {
+  color: rgb(255, 51, 0);
+}
+
+.sm-list img {
+  height: auto;
+  width: 120px;
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  padding-bottom: 230px;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-container > * {
+  margin-right: 100px; /* Apply margin to all children */
+}
+
+.footer-column,
+.footer-column-copyright {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-column h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.footer-column a {
+  color: white;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 2px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+#break {
+  margin-bottom: 30px;
+}
+
+.footer-column-copyright {
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 80px;
+  padding-right: 120px;
+}
+
+.sm-logo-footer {
+  width: 138px;
+  margin-left: -32px;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 20px;
+}
